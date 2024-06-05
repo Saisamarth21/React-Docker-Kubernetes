@@ -133,4 +133,7 @@ kubectl run -i --tty load-generator --rm --image=busybox --restart=Never -- /bin
 docker push <docker-username>/<app-name>
 ```
 
-
+#### Pull the Docker image from DockerHub
+```bash
+docker pull saisamarth21/reactquiz-docker
+```
