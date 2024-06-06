@@ -137,3 +137,9 @@ docker push <docker-username>/<app-name>
 ```bash
 docker pull saisamarth21/reactquiz-docker
 ```
+
+#### Pull the Docker image from GitHub Packages
+```bash
+docker pull ghcr.io/saisamarth21/react-docker:latest
+```
+
