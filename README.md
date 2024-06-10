@@ -87,6 +87,14 @@ kubectl get services
 ```bash
 minikube ip
 ```
+#### Get URL
+```bash
+minikube service <SERVICE_NAME> --url
+```
+#### Delete all pods
+```bash
+kubectl delete pods --all
+```
 
 Access your app in the browser using the Minikube IP address and the port number from the service.
 
